@@ -55,7 +55,7 @@ pairs = [
     # "AI16Z/USDT",
     # "ZRO/USDT",
     # "DOT/USDT",
-    # "NEAR/USDT",
+    "NEAR/USDT",
     # "MATIC/USDT",
     # "UNI/USDT",
     # "HBAR/USDT",
@@ -95,7 +95,7 @@ async def fetch_and_save_ohlcv(downloader: UniversalOHLCVDownloader, pair: str, 
 
 
 async def main():
-    start_timestamp = convert_date_to_timestamp("2024/01/01 00:00 +0000")
+    start_timestamp = convert_date_to_timestamp("2025/01/01 00:00 +0000")
     end_timestamp = convert_date_to_timestamp("2025/03/01 00:00 +0000")
     output_dir = "ohlcv_output"
     
